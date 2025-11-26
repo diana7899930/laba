@@ -1,4 +1,5 @@
- def wrapper(*args, **kwargs):             
+def utf8_converter(func):   
+def wrapper(*args, **kwargs):             
 
         new_args = []                         
 
