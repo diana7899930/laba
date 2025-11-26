@@ -13,7 +13,7 @@ def wrapper(*args, **kwargs):
         new_kwargs = {}                      
 
       
-        for key, value in kwargs.items():
+        for value in kwargs.items():
             if isinstance(value, str):
                 utf_text = value.encode("utf-8")
                 new_kwargs[key] = utf_text
